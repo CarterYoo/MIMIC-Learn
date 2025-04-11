@@ -1,4 +1,4 @@
-# ReflectNet
+# ReflectNet - Natural Language-Guided Weight Modulation for Low-Resource ML
 An LLM-driven training framework where gradient descent is augmented with language-guided weight modulation and adaptive hyperparameter control.
 **Natural Language-Guided Weight Modulation for Low-Resource Machine Learning: An LLM-Driven Optimization Framework**
 
@@ -165,7 +165,7 @@ If you use this project or are inspired by it, please cite as:
 ```
 @misc{llm-guided-tuning2024,
   author = {Seunghyun},
-  title = {Natural Language-Guided Weight Modulation for Low-Resource ML},
+  title = {ReflexNet - Natural Language-Guided Weight Modulation for Low-Resource ML},
   year = {2024},
   note = {https://github.com/yourusername/llm-guided-tuning}
 }
