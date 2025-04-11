@@ -164,9 +164,9 @@ If you use this project or are inspired by it, please cite as:
 
 ```
 @misc{llm-guided-tuning2024,
-  author = {Seunghyun},
+  author = {S Yoo},
   title = {MIMIC-Learn - Natural Language-Guided Weight Modulation for Low-Resource ML},
-  year = {2024},
+  year = {2025},
   note = {https://github.com/yourusername/llm-guided-tuning}
 }
 ```
