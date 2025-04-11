@@ -29,12 +29,18 @@ Our framework couples a standard neural network training loop with an external L
 2. **Monitoring Module:** After each epoch, the model's train/validation performance is recorded.
 3. **LLM Prompter:** Constructs a natural language prompt from the current training state.
 4. **LLM Controller:** An external LLM (GPT-4o) responds with a structured JSON containing:
-    - Dropout rate
-    - Learning rate
-    - Alpha modulation ratio (α)
-    - Optional weight modulation deltas
+    - Dropout rate  
+    - Learning rate  
+    - Alpha modulation ratio (α)  
+    - Optional weight modulation deltas  
 5. **Weight Update Mechanism:** Combines standard gradient descent (60%) with LLM-modulated deltas (40%).
 6. **Self-Evaluation Loop:** The LLM reflects on previous decisions to improve future responses.
+
+### 🖼️ System Diagram
+
+![System Diagram](image1.png)
+
+This figure illustrates the interaction between the base learner, performance monitoring, natural language prompt generation, the LLM response module, and the resulting weight update procedure.
 
 ### 2.2. Base Model
 
